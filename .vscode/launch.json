@@ -1,0 +1,160 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Marray",
+      "request": "launch",
+      "mainClass": "Smstr3.array.Marray",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "Arrayofrecord",
+      "request": "launch",
+      "mainClass": "Smstr3.array.Arrayofrecord",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "arraycharbalikkata",
+      "request": "launch",
+      "mainClass": "Smstr3.array.arraycharbalikkata",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "Smstr3.array.array",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "larikBarang",
+      "request": "launch",
+      "mainClass": "larikBarang",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "larikBarang",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.larikBarang",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "larikbarang",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.larikbarang",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "larikbilangan",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.larikbilangan",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "larikbilangan",
+      "request": "launch",
+      "mainClass": "Smstr3.larikbilangan",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "Barang",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.Barang",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "LarikBarang",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.LarikBarang",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "Marray",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.Marray",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "Smstr3.alpro2_2025smstr3.array.array",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "tukarbilangan",
+      "request": "launch",
+      "mainClass": "Smstr3.tukarbilangan",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "hitunglingakaran",
+      "request": "launch",
+      "mainClass": "Smstr3.hitunglingakaran",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "helloworld",
+      "request": "launch",
+      "mainClass": "helloworld",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "gajipegawai2",
+      "request": "launch",
+      "mainClass": "gajipegawai2",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "GajiPegawai",
+      "request": "launch",
+      "mainClass": "GajiPegawai",
+      "projectName": "Java anjay_635f7eb0"
+    },
+    {
+      "type": "java",
+      "name": "gajiPegawai",
+      "request": "launch",
+      "mainClass": "java.gajiPegawai",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickJavaProcess}"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "GajiPegawai",
+      "request": "launch",
+      "mainClass": "java.GajiPegawai",
+      "projectName": "Java_72da403b"
+    }
+  ]
+}

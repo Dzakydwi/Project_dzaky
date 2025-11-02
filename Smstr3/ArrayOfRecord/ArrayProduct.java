@@ -2,6 +2,12 @@ package ArrayOfRecord;
 import java.util.Scanner;
 
 public class ArrayProduct {
+    // Contoh penambahan method main() di dalam ArrayProduct.java
+public static void main(String[] args) {
+    ArrayProduct produk = new ArrayProduct();
+    produk.Baca();
+    produk.Tulis();
+}
      String productCode;
      double sellingPrice;
 

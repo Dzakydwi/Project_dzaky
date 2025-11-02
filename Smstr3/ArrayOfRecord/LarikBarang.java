@@ -1,7 +1,37 @@
 package ArrayOfRecord;
+
 import java.util.Scanner;
 
 public class LarikBarang {
+
+   public static void main(String[] args) {
+         LarikBarang daftar = new LarikBarang(5);
+
+         // 2. Tambahkan beberapa data barang
+         System.out.println("Memasukkan data barang...");
+         daftar.tambahBarang("B001", "Pensil", 2500, 100);
+         daftar.tambahBarang("B002", "Buku Tulis", 5000, 50);
+         daftar.tambahBarang("B003", "Penghapus", 1000, 200);
+
+         // 3. Tampilkan semua barang
+         System.out.println("\n--- TAMPILKAN DAFTAR ---");
+         daftar.tampilBarang();
+
+         // 4. Cari barang
+         System.out.println("\n--- CARI BARANG ---");
+         System.out.print("Masukkan kode barang yang dicari: ");
+         Scanner sc = new Scanner(System.in);
+         String kodeCari = sc.nextLine();
+         int index = daftar.cariBarang(kodeCari);
+
+         if (index != -1) {
+               System.out.println("Barang dengan kode " + kodeCari + " ditemukan pada indeks: " + index);
+         } else {
+               System.out.println("Barang dengan kode " + kodeCari + " tidak ditemukan.");
+         }
+      }
+
+
    String[] kodeBarang;
    String[] namaBarang;
    int[] hargaBarang;

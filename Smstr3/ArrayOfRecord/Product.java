@@ -2,8 +2,8 @@ package ArrayOfRecord;
 import java.util.Scanner;
 
 public class Product {
-    private String productCode;
-    private double sellingPrice;
+    String productCode;
+    double sellingPrice;
 
     // Method untuk membaca input data Product
     public void Baca() {
@@ -25,5 +25,11 @@ public class Product {
     // Method untuk menampilkan data Product
     public void Tulis() {
         System.out.println("Kode: " + this.productCode + ", Harga: " + this.sellingPrice);
+    }
+
+    public static void main(String[] args) {
+        Product prod = new Product();
+        prod.Baca();
+        prod.Tulis();
     }
 }

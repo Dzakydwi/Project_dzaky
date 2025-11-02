@@ -2,8 +2,8 @@ package ArrayOfRecord;
 import java.util.Scanner;
 
 public class ArrayProduct {
-    private String productCode;
-    private double sellingPrice;
+     String productCode;
+     double sellingPrice;
 
     public void Baca() {
         Scanner sc = new Scanner(System.in); 

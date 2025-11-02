@@ -1,4 +1,5 @@
 package ArrayOfRecord;
+
 public class LarikBarang {
    private String[] kodeBarang;
    private String[] namaBarang;

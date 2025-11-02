@@ -1,12 +1,13 @@
 package ArrayOfRecord;
+import java.util.Scanner;
 
 public class LarikBarang {
-   private String[] kodeBarang;
-   private String[] namaBarang;
-   private int[] hargaBarang;
-   private int[] stokBarang;
-   private int jumlahBarang;
-   private final int maksBarang;
+   String[] kodeBarang;
+   String[] namaBarang;
+   int[] hargaBarang;
+   int[] stokBarang;
+   int jumlahBarang;
+   int maksBarang;
 
    public LarikBarang(int ukuran) {
       maksBarang = ukuran;

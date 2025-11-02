@@ -1,4 +1,4 @@
-package array;
+package ArrayofCharacter;
 
 import java.util.Scanner;
 

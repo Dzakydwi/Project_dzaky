@@ -55,10 +55,10 @@ public class Marray {
     }
     
     void BubbleSortMenurun() {
+        // Urut menurun (descending): tukar jika elemen kiri < elemen kanan
         for (int i = 0; i < N - 1; i++) {
             for (int j = 0; j < N - 1 - i; j++) {
-                if (A[j] > A[j + 1]) {
-                    // Tukar A[j] dan A[j+1]
+                if (A[j] < A[j + 1]) {
                     int temp = A[j];
                     A[j] = A[j + 1];
                     A[j + 1] = temp;
@@ -68,10 +68,10 @@ public class Marray {
     }
     
     void BubbleSortMenaik() {
+        // Urut menaik (ascending): tukar jika elemen kiri > elemen kanan
         for (int i = 0; i < N - 1; i++) {
             for (int j = 0; j < N - 1 - i; j++) {
-                if (A[j] < A[j + 1]) {
-                    // Tukar A[j] dan A[j+1]
+                if (A[j] > A[j + 1]) {
                     int temp = A[j];
                     A[j] = A[j + 1];
                     A[j + 1] = temp;
@@ -84,14 +84,13 @@ public class Marray {
         Marray am = new Marray();
         am.Baca();
         am.Tulis();
-        // am.BubbleSortMenurun();
         am.BubbleSortMenaik();
         am.Tulis();
         System.out.println("Setelah diurutkan: ");
-        // am.Total();
-        // am.NilaiTerkecil();
-        // am.apakahsama(am, am);
-        // System.out.println("Apakah A1 dan A2 sama? " + am.apakahsama(am, am));
+        am.Total();
+        am.NilaiTerkecil();
+        am.apakahsama(am, am);
+        System.out.println("Apakah A1 dan A2 sama? " + am.apakahsama(am, am));
         am.sc.close();
     }
 }

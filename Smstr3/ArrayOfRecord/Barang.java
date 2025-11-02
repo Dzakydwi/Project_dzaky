@@ -1,4 +1,4 @@
-package array;
+package ArrayOfRecord;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Barang {
     }
 
     public void Tulis() {
-        System.out.println("Nama: " + nama + ", Harga: " + harga);
+        System.out.println("Kde: " + nama + ", Harga: " + harga);
     }
 
     public static void main(String[] args) {
